@@ -83,8 +83,8 @@ var rnApk = {
    * @param {String} packageName - Package's name of the application.
    * @return {Boolean} Returns true if app is installed, false if not.
    */
-  isAppInstalled: function(packageName) {
-    return RNAPK.isAppInstalled(packageName);
+  isAppInstalled: function(packageName, cb) {
+    return RNAPK.isAppInstalled(packageName, cb);
   },
 
   /**
@@ -98,8 +98,8 @@ var rnApk = {
    * @param {String} packageName - Package's name of the application.
    * @return {String} Returns the version of the package.
    */
-  getAppVersion: function(packageName) {
-    return RNAPK.getAppVersion(packageName);
+  getAppVersion: function(packageName, cb) {
+    return RNAPK.getAppVersion(packageNamem, cb);
   },
 
   /**
