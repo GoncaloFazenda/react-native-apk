@@ -99,7 +99,7 @@ var rnApk = {
    * @return {String} Returns the version of the package.
    */
   getAppVersion: function(packageName, cb) {
-    return RNAPK.getAppVersion(packageNamem, cb);
+    return RNAPK.getAppVersion(packageName, cb);
   },
 
   /**
